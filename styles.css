@@ -1,4 +1,7 @@
-
+:root {
+    --header-footer-color: rgb(81, 51, 120);
+    --action-color: rgb(62, 114, 192);
+}
 
 * {
     box-sizing: border-box;
@@ -43,11 +46,11 @@ img {
 
 .header-container { 
     display: flex;
-    gap: 20px;
+    gap: 40px;
     position: sticky;
     top: 0;
     font-size: 22px;
-    background-color: rgb(20, 29, 64);
+    background-color: var(--header-footer-color);
     color: white;
     padding: 10px 0;
 }
@@ -60,6 +63,7 @@ img {
 .logo {
     margin-right: auto;
     margin-left: 15vw;
+    font-size: 1.5rem;
 }
 
 .header-container .link:last-of-type {
@@ -68,13 +72,17 @@ img {
 
 /* 0 section */
 #zeroth-section {
-    background : radial-gradient(circle, grey, black);
-    color: white;
+    background: radial-gradient(circle at center, #9d00ff 0%, #e064ff 50%, #1300bb 100%);    color: white;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.benvenue h1 {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 
@@ -105,6 +113,7 @@ img {
 /*second section*/
 #second-section {
     background: linear-gradient(90deg, rgb(253, 191, 201), rgb(87, 87, 237));
+    color: #f0f9f2;
 }
 
 .pics-container { 
@@ -153,7 +162,7 @@ img {
 }
 
 .action-field {
-    background-color: rgb(110, 112, 228);
+    background-color: var(--action-color);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -176,7 +185,7 @@ img {
     width: 200px;
     height: 50px;
     border-radius: 25px;
-    background-color: rgb(110, 112, 228);
+    background-color: var(--action-color);
     border: #fff solid 3px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
     color: white;
@@ -196,7 +205,7 @@ img {
 
 /* footer */
 footer p { 
-    background-color: rgb(20, 29, 64);
+    background-color: var(--header-footer-color);
     text-align: center;
     color: white;
     margin: 0;
