@@ -1,8 +1,10 @@
+
+
 * {
     box-sizing: border-box;
 }
 
-html, body{
+html, body {
     font-family: sans-serif;
     padding: 0;
     margin: 0;
@@ -129,23 +131,52 @@ img {
 
 /* forth-section */
 #forth-section {
-    background-color: antiquewhite;
+    background-color: white;
     padding: 20px;
 }
 
 .action-field {
-    border: pink solid 3px;
+    background-color: rgb(110, 112, 228);
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    margin: 0 15vw;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .action-text {
-    border: indigo solid 3px;
-    
+    color: #fff;
 }
 
+#action-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(110, 112, 228);
+    border: #fff solid 3px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 17px;
+}
+
+#action-button:hover {
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.6);
+}
+
+#action-button:active {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
 /* footer */
-footer p {
-    border: blue solid 3px;
+footer p { 
+    background-color: rgb(20, 29, 64);
     text-align: center;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 0.85rem;
 }
