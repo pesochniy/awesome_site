@@ -6,9 +6,7 @@ html, body{
     font-family: sans-serif;
     padding: 0;
     margin: 0;
-}
-
-
+} 
 
 section {
     padding: 30px 15vw;
@@ -21,35 +19,41 @@ h1 {
 
 h2 {
     font-size: 30px;
-}
-
+} 
 
 img {
     max-width: 100%;
 } 
 
-.logo {
-    margin-right: auto;
-}
-
-.header-container {
-    border: green solid 3px;
+.header-container { 
     display: flex;
     gap: 20px;
     position: sticky;
     top: 0;
-    font-size: 1rem;
+    font-size: 25px;
+    background-color: rgb(20, 29, 64);
+    color: white;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 15vw;
+}
+
+.header-container .link:last-of-type {
+    margin-right: 15vw;
 }
 
 
 /* first section*/
 #first-section {
     background-color: linen;
-}
-
-.header-container div {
-    border: red solid 3px;
-}
+} 
 
 .main-info {
     border: indigo solid 3px;
