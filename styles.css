@@ -2,24 +2,31 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 70vw;
-    margin: auto;
+html, body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
+
+
+
+section {
+    padding: 30px 15vw;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
 
 img {
     max-width: 100%;
-}
-
-
-/* first section*/
-.first-section {
-    background-color: linen;
-}
-
-.header-container div {
-    border: red solid 3px;
-}
+} 
 
 .logo {
     margin-right: auto;
@@ -29,28 +36,40 @@ img {
     border: green solid 3px;
     display: flex;
     gap: 20px;
+    position: sticky;
+    top: 0;
+    font-size: 1rem;
+}
+
+
+/* first section*/
+#first-section {
+    background-color: linen;
+}
+
+.header-container div {
+    border: red solid 3px;
 }
 
 .main-info {
     border: indigo solid 3px;
     display: flex;
-    gap: 20px;
+    justify-content: space-evenly;
 }
 
 .info {
-    border: rgb(72, 72, 238) solid 3px;
-    margin-right: auto;
+    border: rgb(72, 72, 238) solid 3px; 
 }
 
 #header-img {
     flex: 1;
-    max-width: 35vw;
+    max-width: 20vw;
     border: blue solid 6px;
 }
 
 
 /*second section*/
-.second-section {
+#second-section {
     background-color: beige;
 }
 
@@ -67,7 +86,7 @@ img {
 
 
 /* third-section */
-.third-section {
+#third-section {
     background-color: bisque;
 }
 
@@ -87,7 +106,7 @@ img {
 
 
 /* forth-section */
-.forth-section {
+#forth-section {
     background-color: antiquewhite;
     padding: 20px;
 }
