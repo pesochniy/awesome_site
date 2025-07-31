@@ -15,10 +15,17 @@ section {
 
 h1 {
     font-size: 40px;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 a {
+    text-decoration: none;
+    color:rgb(1, 7, 26);
 }
 
 h2 {
     font-size: 30px;
+    text-align: center;
 } 
 
 img {
@@ -30,9 +37,10 @@ img {
     gap: 20px;
     position: sticky;
     top: 0;
-    font-size: 25px;
+    font-size: 22px;
     background-color: rgb(20, 29, 64);
     color: white;
+    padding: 10px 0;
 }
 
 .link a {
@@ -55,43 +63,47 @@ img {
     background-color: linen;
 } 
 
-.main-info {
-    border: indigo solid 3px;
+.main-info { 
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+} 
+
+.info { 
+    max-width: 40vw;
 }
 
-.info {
-    border: rgb(72, 72, 238) solid 3px; 
-}
-
-#header-img {
-    flex: 1;
+#header-img { 
     max-width: 20vw;
-    border: blue solid 6px;
-}
+    border-radius: 18px;
+} 
 
 
 /*second section*/
 #second-section {
-    background-color: beige;
+    background: linear-gradient(90deg, rgb(253, 191, 201), rgb(87, 87, 237));
 }
 
-.pics-container {
-    border: red solid 3px;
+.pics-container { 
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-.illustration {
-    border: green solid 3px;
+.illustration img {
+    border-radius: 15px;
+}
+
+.illustration p {
+    text-align: center;
+    font-size: 1.1rem;
+    color:rgb(62, 62, 62);
 }
 
 
 /* third-section */
 #third-section {
-    background-color: bisque;
+    background-color: linen;
 }
 
 #quote {
