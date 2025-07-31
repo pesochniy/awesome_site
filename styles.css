@@ -12,6 +12,7 @@ html, body {
     padding: 0;
     margin: 0;
     scroll-padding-top: 45px;
+    scroll-behavior: smooth;
 } 
 
 section {
@@ -197,11 +198,11 @@ img {
     text-decoration: none;
 }
 
-#action-button:hover {
+#action-button:hover, button:hover {
     box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.6);
 }
 
-#action-button:active {
+#action-button:active, button:active {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -219,10 +220,55 @@ footer p {
 }
 
 #feedback {
-    background: radial-gradient(circle at center, #1300bb 0%, #e064ff 50%, #9d00ff 100%);    color: white;
+    background: radial-gradient(circle at center, #1300bbc4 0%, #e064ffb6 50%, #9d00ffb5 100%);    color: white;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+form {
+    min-width: 300px;
+    min-height: 200px;
+    padding: 18px;
+    background-color: rgb(82, 26, 173);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    font-weight: 500;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    margin: 7px 0;
+}
+
+textarea {
+    min-width: 100%;
+}
+
+button {
+    height: 2.5rem;
+    width: 100%;
+    margin-top: 7px;
+    background-color: rgb(230, 211, 251);
+    border-radius: 5px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.label-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#back-home {
+    color: rgb(233, 255, 173);
 }

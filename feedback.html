@@ -7,8 +7,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section id="feedback">
-        <div class="benvenue"><h1>Hi there!</h1></div>
-    </section>
+    <div id="feedback">
+        <form action="/submit" method="post">
+            <div class="label-row">
+                <label for="name">Name:</label>
+                <a href="index.html#forth-section" id="back-home">back</a>
+            </div>
+            <input type="text" id="name" name="name" required placeholder="Dude">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="dude@lebowski.org">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="I (don't)like this piece because..."></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </div>
 </body>
 </html>
