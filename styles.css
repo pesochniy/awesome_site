@@ -191,6 +191,10 @@ img {
     color: white;
     font-size: 17px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 #action-button:hover {
@@ -212,4 +216,13 @@ footer p {
     padding: 10px;
     font-weight: 100;
     font-size: 0.85rem;
+}
+
+#feedback {
+    background: radial-gradient(circle at center, #1300bb 0%, #e064ff 50%, #9d00ff 100%);    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
