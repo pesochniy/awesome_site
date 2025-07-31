@@ -23,6 +23,10 @@ h1 a {
     color:rgb(1, 7, 26);
 }
 
+h1 a:hover {
+    color:rgb(10, 55, 86);
+}
+
 h2 {
     font-size: 30px;
     text-align: center;
@@ -109,13 +113,15 @@ img {
 #quote {
     width: 80%;
     margin: auto;
-    font-size: 35px;
+    font-size: 30px;
     font-style: italic;
+    font-weight: 100;
 }
 
 #author {
     width: 80%;
-    font-size: 28px;
+    font-size: 22px;
+    font-weight: 800;
     text-align: right;
     margin: auto;
 }
